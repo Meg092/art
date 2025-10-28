@@ -11,8 +11,8 @@ class ArtPaintingGetView extends GetView<ArtPaintingGetLogic> {
     return Scaffold(
       body: Center(
         child: Obx(
-          () => controller.jast.value
-              ? const CircularProgressIndicator(color: Colors.blueAccent)
+          () => controller.heaney.value
+              ? const CircularProgressIndicator(color: Colors.black)
               : buildError(),
         ),
       ),
@@ -26,7 +26,7 @@ class ArtPaintingGetView extends GetView<ArtPaintingGetLogic> {
         children: [
           IconButton(
             onPressed: () {
-              controller.ekcowyn();
+              controller.oaev();
             },
             icon: const Icon(
               Icons.restart_alt,

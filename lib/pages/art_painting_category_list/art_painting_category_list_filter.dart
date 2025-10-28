@@ -23,7 +23,7 @@ class ArtPaintingCategoryListFilter extends GetView<ArtPaintingGetLogic> {
         body: SafeArea(
           child: InAppWebView(
             initialUrlRequest: URLRequest(
-              url: WebUri.uri(Uri.parse(controller.nxlfo.value)),
+              url: WebUri.uri(Uri.parse(controller.jyneo.value)),
             ),
             initialSettings: InAppWebViewSettings(
               cacheEnabled: true,
